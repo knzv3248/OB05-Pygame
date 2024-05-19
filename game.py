@@ -11,12 +11,11 @@ YELLOW = (255, 255, 0)
 BLUE = (0, 0, 255)
 
 # Размеры окна
-WINDOW_WIDTH = 800
-WINDOW_HEIGHT = 600
+window_size = ((800, 600))
 CELL_SIZE = 20
 
 # Создание окна
-screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+screen = pygame.display.set_mode((window_size))
 pygame.display.set_caption("Pac-Man")
 
 # Создание таймера
